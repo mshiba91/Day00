@@ -1,3 +1,3 @@
 #!/bin/sh
 
-find . \( -name '*~' -or -name '#*#') -print -delete
+find . \ -name '_*~' -or -name '#*_#' -print -delete
